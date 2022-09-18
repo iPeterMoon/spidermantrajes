@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<!--Hecho por Pedro Luna Esquer, 5AMPr-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Spider-Man y sus trajes</title>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>	
+		<header>
+			<h1 class="header">Spider-Man y sus trajes</h1>
+			<ul class="header">
+				<li class="header">Pedro Luna</li>
+				<li class="header">5AMPr</li>
+			</ul>
+		</header>
+		<div class="container">
+			<div class="anuncio col">
+				<a href="https://www.marvel.com/comics"><img src="banner.jpg"></a>
+				<a href="https://www.marvel.com/comics"><img src="banner2.jpg" width="288px"></a>
+				<a href="https://www.marvel.com/comics"><img src="banner3.jpg" width="288px"></a>
+			</div>
+			<div class="tabla col">
+				<table>
+					<tr>
+						<th>Traje</th>
+						<th>Descripción</th>
+					</tr>
+					<tr>
+						<td style="padding:0;">
+							<a href="https://marvel.fandom.com/wiki/Amazing_Fantasy_Vol_1_15"><img class="link" src="clasico.png" width="162px" height="186px"></a>
+						</td>
+						<td style="padding-left:5px;">
+							<b>Traje clásico</b><br>
+							Por supuesto, Peter Parker no pretendía ser un defensor de la ley cuando obtuvo sus sorprendentes poderes; quería dedicarse al mundo del espectáculo y necesitaba una imagen llamativa para entrar en escena. Se enteró de que en la clase de danza de la Preparatoria Midtown iban a tirar algunos disfraces. Entró en el instituto por la noche y encontró uno que le venía bien, lo llevó al aula de arte donde se pasó horas serigrafiando una telaraña en la camisa. También se confeccionó un par de guantes y botas ajustados y, con unos espejos unidireccionales que encontró en el aula de teatro, se fabricó un antifaz. Su primer taje ya estaba listo.
+						</td>
+					</tr>
+					<tr>
+						<td style="padding:0;">
+							<a href="https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_252"><img class="link" src="simbionte.jpg" width="162px" height="203px;"></a>
+						</td>
+						<td style="padding-left:5px;">
+							<b>Traje Negro / Simbionte</b><br><br>
+							En 1984, ocurre el primer gran crossover de Marvel: Secret War, donde todos los superhéroes y los supervillanos son obligados a luchar entre ellos, en esta batalla, Spider-Man sufre bastantes destrozos en el traje y va a una máquina alienígena en la base de los superhéroes, que hace trajes. De pronto, de la máquina sale una bola negra que se expande y se pega a Spider-Man, convirtiéndose en un traje nuevo, de color negro. Spider-Man lleva este traje y al final se lo quita porque resulta ser un alienígena simbionte que, además de dar más poder al que lo lleva, le va dominando poco a poco y volviéndolo cada vez más agresivo y malvado.
+						</td>
+					</tr>
+					<tr>
+						<td style="padding:0;">
+							<a href="https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_258"><img class="link" src="bagman.jpg" width="162px" height="215px"></a>
+						</td>
+						<td style="padding-left:5px;">
+							<b>The Bombastic Bag-Man</b><br><br>
+							Cuando se quitó el traje del simbionte, Spider-Man se vio obligado a usar un viejo disfraz de los Cuatro Fantásticos, dado por Mr.Fantástico y La Antorcha Humana con una máscara de bolsa de papel y un cartel de "Pateame" en la espalda, cortesía de Johnny Storm, la antorcha humana, camino a su casa para recuperar su viejo traje clásico, tuvo que entrar en acción y los noticieros lo identificaron como <i>"The Bombastic Bag-Man"</i>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding:0;">
+							<a href="https://marvel.fandom.com/wiki/Amazing_Spider-Man_Vol_1_529"><img class="link" src="ironSpider.jpg" width="162px" height="245px"></a>
+						</td>
+						<td style="padding-left:5px;">
+							<b>Iron Spider</b><br><br>
+							En 2006 ocurre el crossover Civil War, donde los superhéroes se enfrentan entre ellos por culpa de un acta de registro de superhumanos, esto divide a los que están a favor, liderados por Iron Man, y los que están en contra, liderados por el Capitán América. Al principio, Spider-Man está a favor del acta y muy al lado de Iron Man e incluso decide revelar su identidad secreta a todo el mundo en una rueda de prensa. Tony Stark le hace un traje cibernético impresionante, que utiliza hasta que decide cambiar de bando viendo los abusos de esta nueva ley.
+						</td>
+					</tr>
+				</table>
+				<center>
+					<h2>Cuestionario</h2>
+					<form action="" method="">
+						<b>¿Donde fabricó su primer traje Peter Parker?</b> <span id="r1"></span><br><br>
+						<input type="radio" id="p1" name="p1"><label for="p1">En su casa</label>
+						<input type="radio" id="p1.1" name="p1"><label for="p1.1">En el instituto</label><br><br>
+						<label for="p2"><b>¿En qué evento Spider-Man obtuvo el traje negro?</b></label>  <span id="r2"></span><br><br>
+						<input type="text" id="p2" name="p2" placeholder="Escribe"><br><br>
+						<label for="p3"><b>¿Por qué Spider-Man dejó de usar el traje negro?</b></label>  <span id="r3"></span><br><br>
+						<input list="razones" id="p3"name="p3" placeholder="Escoge">
+						<datalist id="razones">
+							<option value="Por que ya no le gustaba">
+							<option value="Porque lo estaba dominando">
+							<option value="Porque extrañaba el traje clásico">
+						</datalist><br><br>
+						<b>¿Quién le dio el traje del Hombre Bolsa a Spider-Man?</b>  <span id="r4"></span><br><br>
+						<input type="checkbox" id="p4" name="p4"><label for="p4">Mr. Fantástico</label><br>
+						<input type="checkbox" id="p4.1" name="p4"><label for="p4.1">La Mole</label><br>
+						<input type="checkbox" id="p4.2" name="p4"><label for="p4.2">La Antorcha Humana</label><br>
+						<input type="checkbox" id="p4.3" name="p4"><label for="p4.3">La Mujer Invisible</label><br><br>
+						<label for="p5"><b>¿Quién le dio la armadura Iron Spider a Spider-Man?</b></label><br><br><span id="r5"></span>
+						<input type="text" name="p5" id="p5" placeholder="Escribe"><br><br>
+						<input type="reset"><br><br>
+					</form>
+					<button onclick="validar()">Enviar</button><br><br>
+				</center>
+			</div>
+		</div>
+	</body>
+</html>
